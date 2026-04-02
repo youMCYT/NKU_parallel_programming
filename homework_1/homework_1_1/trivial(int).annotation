@@ -1,0 +1,62 @@
+trivial(int)() /home/yukio/文档/C++/homework_1_1/product
+Event: L1-dcache-load-misses
+
+Percent        
+            /home/yukio/.debug/.build-id/66/5c1c0dd4c27723cc87f7769fdff4c5a1f7ca30/elf：     文件格式 elf64-x86-64
+               
+               
+            Disassembly of section .text:
+               
+            00000000000012bf <trivial(int)>:
+              endbr64       
+              push    %rbp  
+              mov     %rsp,%rbp
+              mov     %edi,-0x14(%rbp)
+              movl    $0x0,-0x8(%rbp)
+            ↓ jmp     ca    
+        17:   mov     -0x8(%rbp),%eax
+              cltq          
+              lea     0x0(,%rax,8),%rdx
+              lea     trivial_sum,%rax
+              pxor    %xmm0,%xmm0
+              movsd   %xmm0,(%rdx,%rax,1)
+              movl    $0x0,-0x4(%rbp)
+            ↓ jmp     ba    
+        3d:   mov     -0x8(%rbp),%eax
+              cltq          
+              lea     0x0(,%rax,8),%rdx
+              lea     trivial_sum,%rax
+              movsd   (%rdx,%rax,1),%xmm1
+ 38.27        mov     -0x8(%rbp),%eax
+  0.04        movslq  %eax,%rdx
+              mov     -0x4(%rbp),%eax
+              cltq          
+              shl     $0xa,%rax
+              add     %rdx,%rax
+              lea     0x0(,%rax,8),%rdx
+              lea     b,%rax
+  5.04        movsd   (%rdx,%rax,1),%xmm2
+ 31.72        mov     -0x4(%rbp),%eax
+              cltq          
+              lea     0x0(,%rax,8),%rdx
+  0.04        lea     a,%rax
+              movsd   (%rdx,%rax,1),%xmm0
+  0.09        mulsd   %xmm2,%xmm0
+  6.60        addsd   %xmm1,%xmm0
+ 12.73        mov     -0x8(%rbp),%eax
+  0.04        cltq          
+              lea     0x0(,%rax,8),%rdx
+              lea     trivial_sum,%rax
+              movsd   %xmm0,(%rdx,%rax,1)
+  5.36        addl    $0x1,-0x4(%rbp)
+  0.07  ba:   mov     -0x4(%rbp),%eax
+              cmp     -0x14(%rbp),%eax
+            ↑ jl      3d    
+              addl    $0x1,-0x8(%rbp)
+        ca:   mov     -0x8(%rbp),%eax
+              cmp     -0x14(%rbp),%eax
+            ↑ jl      17    
+              nop           
+              nop           
+              pop     %rbp  
+            ← ret           

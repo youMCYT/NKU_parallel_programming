@@ -1,0 +1,68 @@
+optimized(int)() /home/yukio/文档/C++/homework_1_1/product
+Event: L1-dcache-load-misses
+
+Percent        
+            /home/yukio/.debug/.build-id/66/5c1c0dd4c27723cc87f7769fdff4c5a1f7ca30/elf：     文件格式 elf64-x86-64
+               
+               
+            Disassembly of section .text:
+               
+            0000000000001399 <optimized(int)>:
+              endbr64       
+              push    %rbp  
+              mov     %rsp,%rbp
+              mov     %edi,-0x14(%rbp)
+              movl    $0x0,-0xc(%rbp)
+            ↓ jmp     35    
+        14:   mov     -0xc(%rbp),%eax
+              cltq          
+              lea     0x0(,%rax,8),%rdx
+              lea     optimized_sum,%rax
+              pxor    %xmm0,%xmm0
+              movsd   %xmm0,(%rdx,%rax,1)
+              addl    $0x1,-0xc(%rbp)
+        35:   mov     -0xc(%rbp),%eax
+              cmp     -0x14(%rbp),%eax
+            ↑ jl      14    
+              movl    $0x0,-0x8(%rbp)
+            ↓ jmp     df    
+        49:   movl    $0x0,-0x4(%rbp)
+            ↓ jmp     cf    
+        52:   mov     -0x4(%rbp),%eax
+  0.11        cltq          
+              lea     0x0(,%rax,8),%rdx
+  2.03        lea     optimized_sum,%rax
+  0.11        movsd   (%rdx,%rax,1),%xmm1
+  9.41        mov     -0x4(%rbp),%eax
+  0.11        movslq  %eax,%rdx
+  0.24        mov     -0x8(%rbp),%eax
+  3.69        cltq          
+  0.45        shl     $0xa,%rax
+  1.59        add     %rdx,%rax
+  0.11        lea     0x0(,%rax,8),%rdx
+  0.11        lea     b,%rax
+  7.98        movsd   (%rdx,%rax,1),%xmm2
+  6.07        mov     -0x8(%rbp),%eax
+  0.23        cltq          
+  3.89        lea     0x0(,%rax,8),%rdx
+              lea     a,%rax
+  1.37        movsd   (%rdx,%rax,1),%xmm0
+  1.32        mulsd   %xmm2,%xmm0
+ 29.88        addsd   %xmm1,%xmm0
+ 12.92        mov     -0x4(%rbp),%eax
+  0.34        cltq          
+              lea     0x0(,%rax,8),%rdx
+  1.84        lea     optimized_sum,%rax
+  0.11        movsd   %xmm0,(%rdx,%rax,1)
+ 10.61        addl    $0x1,-0x4(%rbp)
+  0.55  cf:   mov     -0x4(%rbp),%eax
+  0.23        cmp     -0x14(%rbp),%eax
+  4.70      ↑ jl      52    
+              addl    $0x1,-0x8(%rbp)
+        df:   mov     -0x8(%rbp),%eax
+              cmp     -0x14(%rbp),%eax
+            ↑ jl      49    
+              nop           
+              nop           
+              pop     %rbp  
+            ← ret           
