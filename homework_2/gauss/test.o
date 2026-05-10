@@ -1,0 +1,72 @@
+size: 4
+unequal count: 0
+serial average time: 9.05e-05 (ms)
+simd average time: 9.8e-05 (ms)
+cache average time: 0.0001325 (ms)
+alignment average time: 0.0001305 (ms)
+
+size: 8
+unequal count: 0
+serial average time: 0.000359 (ms)
+simd average time: 0.0003315 (ms)
+cache average time: 0.0003715 (ms)
+alignment average time: 0.0004045 (ms)
+
+size: 16
+unequal count: 0
+serial average time: 0.002198 (ms)
+simd average time: 0.00153355 (ms)
+cache average time: 0.001699 (ms)
+alignment average time: 0.0017645 (ms)
+
+size: 32
+unequal count: 0
+serial average time: 0.016002 (ms)
+simd average time: 0.00798455 (ms)
+cache average time: 0.008378 (ms)
+alignment average time: 0.00793205 (ms)
+
+size: 64
+unequal count: 0
+serial average time: 0.110454 (ms)
+simd average time: 0.0483502 (ms)
+cache average time: 0.0478131 (ms)
+alignment average time: 0.0471731 (ms)
+
+size: 128
+unequal count: 0
+serial average time: 1.23116 (ms)
+simd average time: 0.650602 (ms)
+cache average time: 0.65533 (ms)
+alignment average time: 0.337112 (ms)
+
+size: 256
+unequal count: 0
+serial average time: 10.5032 (ms)
+simd average time: 5.09336 (ms)
+cache average time: 5.09501 (ms)
+alignment average time: 3.01809 (ms)
+
+size: 512
+unequal count: 0
+serial average time: 85.2657 (ms)
+simd average time: 37.6176 (ms)
+cache average time: 37.6287 (ms)
+alignment average time: 28.3358 (ms)
+
+size: 1024
+unequal count: 0
+serial average time: 636.477 (ms)
+simd average time: 281.349 (ms)
+cache average time: 279.87 (ms)
+alignment average time: 261.238 (ms)
+
+size: 2048
+unequal count: 0
+serial average time: 3925.73 (ms)
+simd average time: 1523.71 (ms)
+cache average time: 1503.34 (ms)
+alignment average time: 1394.34 (ms)
+
+
+Authorized users only. All activities may be monitored and reported.
