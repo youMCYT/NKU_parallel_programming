@@ -1,0 +1,98 @@
+thread 0: 11417.3 (ms)
+thread 1: 11237.6 (ms)
+elapsed: 12700.2 (ms)
+total: 22654.9 (ms)
+
+ Performance counter stats for './main':
+
+   184,131,715,954      cycles:u                                                    
+   281,432,492,979      instructions:u            #    1.53  insn per cycle         
+                 0      context-switches:u                                          
+                 0      cpu-migrations:u                                            
+     1,132,681,297      cache-misses:u            #    0.941 % of all cache refs    
+   120,392,960,462      cache-references:u                                          
+
+      61.661857928 seconds time elapsed
+
+      71.130168000 seconds user
+       1.148050000 seconds sys
+
+thread 0: 9410.66 (ms)
+thread 1: 8066.83 (ms)
+thread 2: 7087.85 (ms)
+thread 3: 8089.66 (ms)
+elapsed: 11954.4 (ms)
+total: 32655 (ms)
+
+ Performance counter stats for './main':
+
+   236,011,998,153      cycles:u                                                    
+   281,445,734,629      instructions:u            #    1.19  insn per cycle         
+                 0      context-switches:u                                          
+                 0      cpu-migrations:u                                            
+     1,123,401,551      cache-misses:u            #    0.933 % of all cache refs    
+   120,394,741,808      cache-references:u                                          
+
+      73.442280086 seconds time elapsed
+
+      91.867551000 seconds user
+       2.297861000 seconds sys
+
+thread 0: 4174.72 (ms)
+thread 1: 4178.79 (ms)
+thread 2: 4033.53 (ms)
+thread 3: 3781.36 (ms)
+thread 4: 3531.3 (ms)
+thread 5: 3557.7 (ms)
+thread 6: 3386.71 (ms)
+thread 7: 3575.07 (ms)
+elapsed: 7486.91 (ms)
+total: 30219.2 (ms)
+
+ Performance counter stats for './main':
+
+   226,756,670,492      cycles:u                                                    
+   281,448,214,797      instructions:u            #    1.24  insn per cycle         
+                 0      context-switches:u                                          
+                 0      cpu-migrations:u                                            
+     1,127,091,279      cache-misses:u            #    0.936 % of all cache refs    
+   120,398,821,153      cache-references:u                                          
+
+      65.897744410 seconds time elapsed
+
+      88.080810000 seconds user
+       7.587503000 seconds sys
+
+thread 0: 1916.42 (ms)
+thread 1: 1899.01 (ms)
+thread 2: 1868.68 (ms)
+thread 3: 1962.42 (ms)
+thread 4: 1969.8 (ms)
+thread 5: 1944 (ms)
+thread 6: 1867.14 (ms)
+thread 7: 1920.2 (ms)
+thread 8: 1992.45 (ms)
+thread 9: 1835.64 (ms)
+thread 10: 1946.31 (ms)
+thread 11: 1945.08 (ms)
+thread 12: 1921.59 (ms)
+thread 13: 1782.03 (ms)
+thread 14: 1846.09 (ms)
+thread 15: 1897.4 (ms)
+elapsed: 12191.7 (ms)
+total: 30514.3 (ms)
+
+ Performance counter stats for './main':
+
+   223,073,209,753      cycles:u                                                    
+   281,475,319,990      instructions:u            #    1.26  insn per cycle         
+                 0      context-switches:u                                          
+                 0      cpu-migrations:u                                            
+     1,131,521,319      cache-misses:u            #    0.940 % of all cache refs    
+   120,406,215,686      cache-references:u                                          
+
+      68.645616554 seconds time elapsed
+
+      86.394268000 seconds user
+      17.361776000 seconds sys
+

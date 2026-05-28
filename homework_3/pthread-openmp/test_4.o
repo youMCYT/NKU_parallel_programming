@@ -1,0 +1,27 @@
+size: 256
+unequal count: 0
+serial average time: 14.9736 (ms)
+simd average time: 4.78787 (ms)
+static average time: 43.6596 (ms)
+size: 512
+unequal count: 0
+serial average time: 149.498 (ms)
+simd average time: 45.7338 (ms)
+static average time: 135.759 (ms)
+size: 1024
+unequal count: 0
+serial average time: 1212.02 (ms)
+simd average time: 437.921 (ms)
+static average time: 333.46 (ms)
+size: 2048
+unequal count: 0
+serial average time: 4974.58 (ms)
+simd average time: 1710.76 (ms)
+static average time: 889.558 (ms)
+size: 4096
+unequal count: 0
+serial average time: 44766.1 (ms)
+simd average time: 21110.4 (ms)
+static average time: 5695.25 (ms)
+
+Authorized users only. All activities may be monitored and reported.
