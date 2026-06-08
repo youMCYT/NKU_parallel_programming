@@ -1,0 +1,27 @@
+size: 256
+unequal count: 0
+serial average time: 9.07294 (ms)
+simd+openmp average time: 3.54322 (ms)
+mpi average time: 2.52064 (ms)
+size: 512
+unequal count: 0
+serial average time: 75.4273 (ms)
+simd+openmp average time: 21.224 (ms)
+mpi average time: 15.264 (ms)
+size: 1024
+unequal count: 0
+serial average time: 582.588 (ms)
+simd+openmp average time: 118.289 (ms)
+mpi average time: 87.4194 (ms)
+size: 2048
+unequal count: 0
+serial average time: 4284.61 (ms)
+simd+openmp average time: 1179.69 (ms)
+mpi average time: 547.615 (ms)
+size: 4096
+unequal count: 0
+serial average time: 45839.9 (ms)
+simd+openmp average time: 9855.29 (ms)
+mpi average time: 3896.3 (ms)
+
+Authorized users only. All activities may be monitored and reported.
