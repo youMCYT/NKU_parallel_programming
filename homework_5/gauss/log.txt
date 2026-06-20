@@ -1,0 +1,51 @@
+2048:
+
+32:
+cpu time: 1004.57 (ms)
+gpu time: 69.7635 (ms)
+
+64:
+cpu time: 999.041 (ms)
+gpu time: 56.0311 (ms)
+
+128:
+cpu time: 1020.73 (ms)
+gpu time: 50.9209 (ms)
+
+256:
+cpu time: 1022.9 (ms)
+gpu time: 50.5064 (ms)
+
+512:
+cpu time: 1038.67 (ms)
+gpu time: 60.2338 (ms)
+
+1024:
+cpu time: 1027.32 (ms)
+gpu time: 102.869 (ms)
+
+4096:
+
+32:
+cpu time: 10852.6 (ms)
+gpu time: 1281.74 (ms)
+
+64:
+cpu time: 11527.2 (ms)
+gpu time: 912.29 (ms)
+
+128:
+cpu time: 10631 (ms)
+gpu time: 807.823 (ms)
+
+256:
+cpu time: 10183.1 (ms)
+gpu time: 744.984 (ms)
+
+512:
+cpu time: 10912.7 (ms)
+gpu time: 775.665 (ms)
+
+1024:
+cpu time: 10927.5 (ms)
+gpu time: 917.633 (ms)
