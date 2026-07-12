@@ -1,0 +1,6 @@
+serial elapsed: 7.72358 (ms)
+simd elapsed: 7.61167 (ms)
+openmp elapsed: 7.93333 (ms)
+serial: equal
+simd: equal
+openmp: equal
